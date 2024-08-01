@@ -1,15 +1,13 @@
-
-import './App.css'
+import ToDoList from "./page/to-do-list"
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1 className='text-3xl text-blue-500 font-bold underline'>Hello World</h1>
-      </div>
+      <ToDoList />
     </>
   )
 }
 
 export default App
+  
